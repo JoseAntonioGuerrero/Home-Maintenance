@@ -1,0 +1,12 @@
+<div  class="container mt-4" >
+<div class="d-flex">
+  <input type="number" class="form-control" id="buscar" [(ngModel)]="id"  placeholder="ej:333" >
+  <button type="button" (click)="Buscar()"  class="btn btn-info ml-4">Buscar</button>
+</div>
+  <small id="tip" class="form-text text-muted">Ingrese el codigo correspondiente a  la Vivienda a Evaluar.</small>
+
+
+</div>
+ <div *ngFor="let casa of casas|async">
+<h3>{{casa|json}}</h3>
+</div>
