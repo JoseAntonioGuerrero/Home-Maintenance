@@ -4,14 +4,14 @@
 
 export const environment = {
   production: false,
-  firebaseConfig:{
-    apiKey: "AIzaSyDMmfUyuUVPEYoCt-lYI8-WogohSt0V-kA",
-    authDomain: "home-maintenance-ve.firebaseapp.com",
-    databaseURL: "https://home-maintenance-ve.firebaseio.com",
-    projectId: "home-maintenance-ve",
-    storageBucket: "home-maintenance-ve.appspot.com",
-    messagingSenderId: "1090645729544"
-  }
+  firebaseConfig: {
+    apiKey: "AIzaSyDWV6Ga3Irg78OnuZkfqAX3bv26_MvbdIY",
+    authDomain: "home-maintenance-vzla.firebaseapp.com",
+    databaseURL: "https://home-maintenance-vzla.firebaseio.com",
+    projectId: "home-maintenance-vzla",
+    storageBucket: "home-maintenance-vzla.appspot.com",
+    messagingSenderId: "60622678002"
+}
 };
 
 /*
